@@ -1,0 +1,14 @@
+[project]
+name = "srt-subtitle-kit"
+version = "0.1.0"
+description = "SubRip subtitle parser and serializer using only the standard library"
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
